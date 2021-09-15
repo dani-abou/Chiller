@@ -1,0 +1,135 @@
+.fullScreenButton {
+  color: "#03fc28";
+  cursor: "pointer";
+  flex: "0 0 5%";
+  text-align: "right";
+  font-size: "30px";
+}
+
+.navItem {
+  width: 100%;
+  font-size: 40px;
+  cursor: pointer;
+  margin: 20px auto;
+}
+
+.navItem:hover {
+  margin: 15px auto;
+  font-size: 50px;
+}
+
+.navDiv {
+  flex: 0 0 20%;
+}
+
+.trackSearchResult {
+  display: flex;
+  margin: 5% auto;
+  border-radius: 5px;
+  padding: 2%;
+  cursor: pointer;
+}
+
+.trackSearchResult:hover {
+  background-color: #666666;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #009e28;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.panelButton {
+  color: #389465;
+  text-align: center;
+  font-size: 5rem;
+  cursor: pointer;
+}
+
+.panelButton:hover {
+  color: #52ffa5;
+  font-size: 6rem;
+  margin-right: -10px;
+}
+
+.queueButton {
+  margin-left: 10px;
+  color: #389465;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.queueButton:hover {
+  color: #52ffa5;
+}
+
+.navIcons {
+  flex: 1;
+  cursor: pointer;
+}
+
+.navIcons:hover {
+  font-size: 3rem;
+}
+
+.queueTrack {
+  display: flex;
+  margin: 5% auto;
+  border-radius: 5px;
+  padding: 2%;
+}
+
+.playlistCard {
+  display: flex;
+  height: 10%;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+
+.playlistCard:hover {
+  background-color: #666666;
+}
+
+.shuffleButton {
+  background-color: #389465;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+  padding: 0;
+}
+
+.shuffleButton:hover {
+  border: 5px solid white;
+}
+
+.fullscreenButton {
+  color: #389465;
+  font-size: 3rem;
+  margin-left: 5%;
+  margin-top: 5%;
+  cursor: pointer;
+}
+
+.fullscreenButton:hover {
+  font-size: 4rem;
+}

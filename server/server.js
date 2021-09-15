@@ -28,7 +28,8 @@ app.post("/login", (req, res) => {
         expiresIn: data.body.expires_in,
       });
     })
-    .catch(() => {
+    .catch((e) => {
+      console.log(e);
       res.sendStatus(400);
     });
 });
@@ -72,9 +73,5 @@ app.get("/lyrics", async (req, res) => {
     "No Lyrics Found";
   res.json({ lyrics });
 });
-
-// app.post("/addQueue", (req, res) => {
-
-// })
 
 app.listen(3001);

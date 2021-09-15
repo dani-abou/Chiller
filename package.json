@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "npm run front && npm run back && npm run app",
+    "start": "npm run front && npm run back",
     "front": "cd client && start npm start && cd ..",
     "back": "cd server && start npm run dev && cd..",
     "app": "cd client && npm run electron && cd.."

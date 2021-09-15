@@ -1,4 +1,4 @@
-cd server
-cscript server_bat.vbs
-cd ../client
-cscript client_bat.vbs
+cd client
+start /min npm start
+cd ../server
+start /min npm run dev
